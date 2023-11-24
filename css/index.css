@@ -1,0 +1,977 @@
+body { 
+    background-color: #fff1d7ff; 
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/images/Patronbody.svg); 
+    background-repeat:repeat-x repeat-y;
+    background-size: 400px;
+    overscroll-behavior: auto;      
+}
+
+#redes{
+    display: none;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    background-image: url(../assets/images/Patronnavbar.png); 
+    background-repeat: repeat-x;
+    background-size:cover;
+    background-position: center;
+}
+#compra{
+    display: none;
+} 
+
+#compra-mobile{
+    margin-left: 10px;
+    width: 24px;
+}   
+    
+#navbarNav{
+    justify-content: end; 
+}
+.navbar-toggler{
+    position: relative;
+}
+
+.nav-link{
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;
+    font-family: 'Josefin Slab', serif;
+}
+
+#LogoNavBar{
+    display: none;
+}
+
+#LogoNavBarMobile{
+    margin-left: 10px;
+    width: 30px;
+    padding: 0px;
+}
+
+.carousel-indicators button{
+    width: 5px !important;
+    height: 5px !important;
+    border-radius: 100% !important;
+}
+
+.carousel-caption{
+    padding: 20px 25px;
+}
+
+h1{
+    font-family: 'Cormorant', serif; 
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.texto-carrusel,.texto-producto{
+    display: none;
+}
+
+.link-producto{
+    text-decoration: none;
+    color: white;
+}
+
+.tipo-producto{
+    font-size: 12px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: lighter;
+    display: block;
+}
+
+.separador-carrusel{
+    border-bottom: solid 3px #D7B474;
+    padding: 0px;
+}
+
+.busqueda{
+    display: flex;
+    padding: 5px 0px;
+    border-bottom: solid black 1px;
+    box-sizing: border-box;
+}
+
+.dropdown-option, .dropdown-item, .descripcion-info{
+    font-size: 11px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+    
+}
+
+#info-icon{
+    width: 20px;
+    padding: 0px;
+    
+}
+
+#info{
+    display: none;
+}
+
+.descripcion-info{
+    padding: 13px !important;
+    
+}
+
+.dropdown-menu{
+    background-color: #fff1d7ff;
+}
+
+.card-group{
+    margin: 0px 10px;
+    border-left: solid rgb(88,88,88) 1px; 
+    border-right: solid rgb(88, 88, 88) 1px;
+    
+    
+}
+
+.card{
+    background-color: transparent;
+    border: solid rgb(146, 146, 146) 1px;
+    border-radius: 0;
+    padding: 0px 15px;
+    width: 150;
+}
+
+.button-contact{
+    background-color: #011627ff ;
+    color: #D7B474;
+    margin-bottom: 5px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bolder;
+    letter-spacing: 7px;
+}
+
+.card-img-top{
+    margin: auto;
+    margin-top: 15px;
+    width: 200px;
+}
+
+.card-title  .card-text{
+    text-align: center;
+}
+
+.card-title{
+    font-family: 'Cormorant', serif;
+}
+
+.card-text{
+    font-family: 'Josefin Slab', serif;
+    font-size: 13px;
+}
+
+.separador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    background-image: url(../assets/images/Separador1.png); 
+    background-size:cover;
+    background-position: center;
+    color: white;
+    font-family: 'Josefin Slab', serif;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 15px;
+}
+
+.separador2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    background-image: url(../assets/images/Separador2.png); 
+    background-size:cover;
+    background-position: center;
+}
+
+
+.accordion-nosotros-body{
+    background-color: #fff1d7ff; 
+    background-image: url(../assets/images/Patronbody.svg); 
+    background-repeat:repeat-x repeat-y;
+    background-size: 1000px;
+    overscroll-behavior: auto;  
+    font-family: 'Josefin Slab', serif;
+}   
+ .accordion-nosotros{
+    background-color: #fff1d7ff; ;
+    background-image: url(../assets/images/Patronbody.svg); 
+    background-repeat:repeat-x repeat-y;
+    background-size: 500px;
+    overscroll-behavior: auto;   
+    font-weight: bold;
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+}
+
+.accordion-nosotros:not(.colappsed){
+    background-color: #fff1d7ff; ;
+    background-image: url(../assets/images/Patronbody.svg); 
+    color: black;
+}
+
+.accordion-faq-title{
+    background-image:  url(../assets/images/Patronnavbar.png); 
+    background-repeat:repeat-x repeat-y;
+    background-size: 500px;
+    overscroll-behavior: auto;   
+    font-weight: bold;
+    font-family: 'Cormorant', serif;
+    font-size: 25px;
+    padding: 10px 0px 0px 20px;
+    text-decoration: underline;
+    color: white;
+}
+
+.accordion-faq-body{ 
+    background-image: url(../assets/images/Patronnavbar.png);  
+    background-size:cover;
+    background-position: center;
+    background-repeat:initial;
+    background-size: 3000px;
+    overscroll-behavior: auto;
+    color: white;   
+    font-weight: lighter;
+    font-family: 'Josefin Slab', serif;
+}
+ .accordion-faq{    
+    background-image: url(../assets/images/Patronbody.svg); 
+    background-repeat:repeat-x repeat-y;
+    background-size: 500px;
+    overscroll-behavior: auto;   
+    font-weight: bold;
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+    color: white;
+}
+
+.accordion-faq:not(.colappsed){
+    background-image: url(../assets/images/Patronnavbar.png);  
+    color: white;
+}
+
+iframe{
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 0px;
+    height: 400px;
+}
+
+.contacto{
+    margin: 0px 12px;
+    display: flex;
+    padding: 18px;
+    border-left: solid 4px #d7b47465;
+    border-right: solid 4px #d7b47465;
+}
+
+.form-input{
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-maps-mobile{
+    margin-top: 30px;
+}
+
+
+#titulo-contacto{
+    color: #011627ff;
+    font-family: 'Josefin Slab', serif;
+    font-size: 35px;
+    letter-spacing: 5px;
+    border-bottom: solid 2px #D7B474;
+    margin-bottom: 15px;
+}   
+
+#texto-contacto{
+    margin: 0px;
+    padding: 0px;
+}
+
+#info-contacto{
+    display: flex; 
+}
+
+#info-telefono{
+    color: #D7B474;
+    text-align: end;
+    font-family: 'Cormorant', serif; 
+
+}
+
+#info-email{
+    margin-left: 20px;
+}
+
+#datos{
+    color: #011627ff;
+    font-family: 'Cormorant', serif;
+    font-size: 24px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    border-bottom: solid 2px #D7B474;
+    width: 70%;
+}
+
+.col-form{
+    width: 100vw;
+}
+
+img.redes-footer {
+    width: 9px;
+    filter: invert(1);
+    margin: 1px;
+  } 
+
+#redes-footer{
+    display: flex;
+}
+
+.footer{
+    display: flex;
+    font-size: 6px;
+    padding: 5px 15px;
+    align-items: center;
+    background-color: #D7B474;
+}
+
+#Logo-footer-mobile{
+    width: 20px;
+}
+
+#Logo-footer{
+    display: none;
+}
+
+#direccion-footer{
+    list-style: none;
+    padding: 0px;
+    margin: auto;
+
+}
+
+#patron-final{
+    height: 5px;
+    background-image: url(../assets/images/Patronnavbar.png); 
+    background-repeat: repeat-x;
+    background-size:cover;
+    background-position: center;
+}
+
+#enviar{
+    margin-top: 20px;
+}
+    
+.whatsapp-button {
+    position: fixed;
+    bottom: 10px; 
+    right: 10px;
+    background-color: #25D366;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.whatsapp-button img {
+    width: 30px; 
+    height: auto;
+    margin-right: 5px;
+}
+
+@media (hover: hover) {
+    .nav-link:hover{
+        text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    }
+
+    body::-webkit-scrollbar-thumb:hover{
+        background-color: #011627ff;
+    }
+    body::-moz-scrollbar-thumb:hover{
+        background-color: #011627ff;
+    }
+    body::-ms-scrollbar-thumb:hover{
+        background-color: #011627ff;
+    }
+
+    .button-contact:hover{
+        color: white;
+        background-color: #7d1218ff ;
+    }
+    
+    .dropdown-item:hover{
+        color: white;
+        background-color: #7d1218ff ;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 992px){
+    #compra{
+        display: block;
+        width: 40px;
+        margin-right: 10px;
+        width: 40px;
+    } 
+
+    #compra-mobile{
+        display: none;
+    }
+
+    .nav-link{
+        color: white;
+        font-size: 16px;
+    }
+
+    .nav-item{
+        padding-left: 10px;
+    }
+
+    #LogoNavBarMobile{
+        display: none;
+    }
+
+    #LogoNavBar{
+        display:block;
+        margin-left: 40px;
+        width: 166px;
+        height: 28px;
+    }
+
+    #compra{
+        margin: 0px 40px 0px 10px;
+        height: 28px;
+    } 
+
+    body::-webkit-scrollbar{
+        width: 18px;
+        background-color: #d7b47465;
+    }
+    body::-webkit-scrollbar-thumb{
+        background-color: #7d1218ff;
+        border-radius: 6px;
+    }
+    body::-moz-scrollbar{
+        width: 18px;
+        background-color: #d7b47465;
+    }
+    body::-moz-scrollbar-thumb{
+        background-color: #7d1218ff;
+        border-radius: 6px;
+    }
+    body::-ms-scrollbar{
+        width: 18px;
+        background-color: #d7b47465;
+    }
+    body::-ms-scrollbar-thumb{
+        background-color: #7d1218ff;
+        border-radius: 6px;
+    }
+
+    .carousel-indicators button{
+        width: 10px !important;
+        height: 10px !important;
+    }
+ 
+    .carousel-caption{
+        padding: 20px 0px
+    }
+
+    h1{
+        font-family: 'Cormorant', serif; ;
+        font-weight: bold;
+        font-size: 50px;
+        margin-bottom: 5px;
+    }
+    
+    .texto-carrusel,.texto-producto{
+        display: block;
+    }
+
+    .texto-carrusel{
+        font-size: 20px;
+        font-family: 'Josefin Slab', serif;
+        font-weight: lighter;
+    }
+
+    .texto-producto{
+        font-weight: bold;
+        font-family: 'Cormorant', serif;
+        font-size: 20px;
+    }
+
+    .tipo-producto{
+        font-weight: lighter;
+        font-family: 'Josefin Slab', serif;
+        font-size: 20px;
+    }
+    
+    .separador-carrusel{
+        border-bottom: solid 3px #D7B474;
+        padding: 0px;
+        margin: 0px 0px 40px 0px;
+    }
+
+    .busqueda{
+        display: flex;
+        padding: 15px 0px;
+        border-bottom: solid black 1px;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dropdown-option, .dropdown-item, .descripcion-info,  #info { 
+        font-size: 30px;
+        font-family: 'Josefin Slab', serif;
+        font-weight: bold;
+        margin: 0px 15px;
+    } 
+
+    #info{
+        display: block;
+    }
+    
+    #button-info-icon{
+        display: none;
+    }
+
+    .card-group{
+        margin: 0px 40px;
+        border-left: solid rgb(88,88,88) 1px; 
+        border-right: solid rgb(88, 88, 88) 1px;
+        
+        
+    }
+
+    .card{
+        background-color: transparent;
+        border: solid rgb(146, 146, 146) 1px;
+        border-radius: 0;
+        padding: 0px 40px;
+    }
+
+
+    .button-contact{
+        background-color: #011627ff ;
+        color: #D7B474;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+
+    .card-img-top{
+        margin-top: 40px;
+    }
+
+    .descripcion-info{
+        padding: 30px !important;
+        
+    }
+
+    .card-title{
+        font-family: 'Cormorant', serif;
+        font-size: 18px;
+    }
+
+    .card-text{
+        font-family: 'Josefin Slab', serif;
+        font-size: 15px;
+    }
+
+    .separador{
+        font-size: 30px;
+        height: 60px;
+    }
+
+    .separador2{
+        height: 40px;
+    }
+
+    .sobre-nosotros{
+        font-family: 'Josefin Slab', serif;
+        font-size: 14px;
+        font-weight:bold;
+        width: 400px;
+        margin-left: 40px;
+        color: rgb(97, 97, 97);
+    }
+
+    .col-nosotros{
+        border-left: solid black 1px;
+        padding: 50px 0px 40px 0px;
+    }
+
+    .historia{
+        padding: 0px 0px 40px 0px
+    }   
+
+    .nosotros-titulo{
+        font-family: 'Josefin Slab', serif;
+        font-size: 30px;
+        font-weight: bolder;
+        width: 300px;
+        padding-left: 20px;
+        border-bottom: solid black 1px;
+    }
+
+    .col-faq-border{
+        background-image: url(../assets/images/Patronfaqboder.svg); 
+        background-size:cover;
+        background-position: center;
+        background-repeat:initial;
+        background-size: 500px;
+    }
+    .col-faq{
+        background-image: url(../assets/images/Patronnavbar.png); 
+        background-size:cover;
+        background-position: center;
+        background-repeat:initial;
+        background-size: 3000px; 
+        margin: 0px 40px;
+        height: 100%;
+        color: white;
+        text-align: center;
+    }
+
+    .faq-titulo{
+        font-family: 'Josefin Slab', serif;
+        font-size: 22px;
+        font-weight: bolder;
+        padding: 30px
+    }
+
+    .faq-preguntas{
+        font-family: 'Josefin Slab', serif;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px 0px 3px 0px;
+    }
+
+    .faq-respuestas{
+        font-family: 'Josefin Slab', serif;
+        font-size: 14px;
+        font-weight: lighter;
+        margin: auto;
+        width: 320px;
+    }
+
+    iframe{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+        border: solid 1px rgb(144, 144, 144);
+        border-radius: 15px;
+    }
+    
+    .contacto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+        display: flex;
+        border: solid 4px #d7b47465;
+    }  
+    
+    .col-maps{
+        width: 100vw;
+        height: 100vh;
+        border: solid 1px rgb(144, 144, 144);
+        border-radius: 15px;
+    }
+
+   
+    #titulo-contacto{
+        color: #011627ff;
+        font-family: 'Josefin Slab', serif;
+        font-size: 35px;
+        letter-spacing: 5px;
+    
+    }   
+  
+    #info-telefono{
+        color: #D7B474;
+        text-align: end;
+        font-family: 'Cormorant', serif; 
+    
+    }
+    
+    #datos{
+        color: #011627ff;
+        font-family: 'Cormorant', serif;
+        font-size: 24px;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        margin-bottom: 0px;
+    }
+    
+    .col-form{
+        margin-left: 60px;
+        width: 100vw;
+    }
+
+    #Logo-footer-mobile{
+        display: none;
+    }
+    
+    #Logo-footer{
+        display: block;
+        width: 50px;
+    }
+
+    .footer{
+    font-size: 9px;
+    padding: 30px 40px;
+    align-items: center;
+    }
+   
+    #direccion-footer{
+        list-style: none;
+        padding: 0px;
+        margin: auto;
+        margin-left: 30px;
+    }
+    
+    img.redes-footer {
+        width: 40px;
+        filter: invert(1);
+        margin-left: 10px;
+        margin-right: 50px;
+    } 
+
+    #redes-footer{
+        padding: 2px;
+        margin-top: 0px;
+        
+    }
+
+    #patron-final{
+        height: 15px;
+    }
+
+    .whatsapp-button {
+        bottom: 50px; 
+        right: 50px;
+    }
+    
+    .whatsapp-button img {
+        width: 40px; 
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .nav-link{
+        color: white;
+        font-size: 18px;
+    }
+    .nav-item{
+        padding-left: 15px;
+    }
+
+    #LogoNavBarMobile{
+        display: none;
+    }
+
+    #LogoNavBar{
+        display:block;
+        margin-left: 80px;
+        width: 200px;
+        height: 34px;
+    }
+
+    #compra{
+        margin: 0px 80px 0px 15px;
+        height: 34px;
+    }
+    
+    .carousel-indicators button{
+        width: 12px !important;
+        height: 12px !important;
+    }
+    .carousel-caption{
+        width: auto;
+    }
+    
+    h1{
+        font-size: 60px;
+        margin-bottom: 5px;
+    }
+
+    .texto-carrusel{
+        font-size: 24px;
+    }
+    
+    
+    #separador-carrusel{
+        border-bottom: solid 6px #D7B474;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .card-img-top{
+        width: 300px;
+    }
+
+    .card-title{
+        font-family: 'Cormorant', serif;
+        font-size: 25px;
+    }
+
+    .card-text{
+        font-family: 'Josefin Slab', serif;
+        font-size: 18px;
+    }
+
+    #nosotros-tablet{
+        display: block;
+    }
+
+    .sobre-nosotros{
+        font-family: 'Josefin Slab', serif;
+        font-size: 16px;
+        font-weight:bold;
+        width: 450px;
+        margin-left: 40px;
+        color: rgb(97, 97, 97);
+    }
+
+    .col-nosotros{
+        border-left: solid black 1px;
+        padding: 50px 0px 40px 0px;
+    }
+
+    .historia{
+        padding: 0px 0px 40px 0px
+    }   
+
+    .nosotros-titulo{
+        font-family: 'Josefin Slab', serif;
+        font-size: 32px;
+        font-weight: bolder;
+        width: 450px;
+        padding-left: 20px;
+        border-bottom: solid black 1px;
+    }
+
+    .col-faq-border{
+        background-image: url(../assets/images/Patronfaqboder.svg); 
+        background-size:cover;
+        background-position: center;
+        background-repeat:initial;
+        background-size: 500px;
+    }
+    .col-faq{
+        background-image: url(../assets/images/Patronnavbar.png); 
+        background-size:cover;
+        background-position: center;
+        background-repeat:initial;
+        background-size: 3000px; 
+        margin: 0px 40px;
+        height: 100%;
+        color: white;
+        text-align: center;
+    }
+
+    .faq-titulo{
+        font-family: 'Josefin Slab', serif;
+        font-size: 32px;
+        font-weight: bolder;
+        letter-spacing: 7px;
+        padding: 40px 0px;
+    }
+
+    .faq-preguntas{
+        font-family: 'Josefin Slab', serif;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 20px 0px;
+    }
+
+    .faq-respuestas{
+        font-family: 'Josefin Slab', serif;
+        font-size: 14px;
+        font-weight: normal;
+        margin: auto;
+        width: 400px;
+    }
+
+    .col-maps{
+        height: 85vh;
+    }
+
+    #Logo-footer-mobile{
+        display: none;
+    }
+    
+    #Logo-footer{
+        display: block;
+        width: 70px;
+    }
+
+    .footer{
+    font-size: 14px;
+    }
+    
+    #direccion-footer{
+        list-style: none;
+        padding: 0px;
+        margin: auto;
+        margin-left: 30px;
+    }
+    
+    img.redes-footer {
+        width: 50px;
+        filter: invert(1);
+        margin-left: 20px;
+        margin-right: 60px;
+    } 
+
+    #redes-footer{
+        padding: 0px;
+        margin-top: 2px;
+        
+    }
+
+    #patron-final{
+        height: 20px;
+    }
+
+    .whatsapp-button {
+        bottom: 50px; 
+        right: 50px;
+    }
+    
+    .whatsapp-button img {
+        width: 55px; 
+    }
+
+}
+
+@media screen and (min-width: 1440px){
+    .card-img-top{
+        width: 100%;
+    }
+
+    .col-maps{
+        height: 70vh;
+    }
+
+}
+
+
